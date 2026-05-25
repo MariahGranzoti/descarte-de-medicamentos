@@ -1,1 +1,172 @@
 # descarte-de-medicamentos
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframe - Descarte de Medicamentos</title>
+    <style>
+        /* Estilo para simular Wireframe (Baixa Fidelidade / Esboço) */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', Courier, monospace; /* Fonte estilo rascunho */
+            color: #ffffff;
+        }
+
+        body {
+            background-color: #ffffff;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            
+        }
+
+        /* Marcação visual para blocos do esboço */
+        .wireframe-block {
+            border: 2px solid #ffffff;
+            background-color: #153e00;
+            margin-bottom: 20px;
+            padding: 20px;
+            text-align: left;
+        }
+
+        .placeholder-text {
+            color: #ffffff;
+            font-style: italic;
+            margin: 10px 0;
+        }
+
+        /* Topo: Logo e Menu */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-placeholder {
+            font-size: 1.5em;
+            padding: 10px 20px;
+            font-weight: bold;
+        }
+
+        nav a {
+            margin-left: 15px;
+            text-decoration: none;
+            font-weight: bold;
+            border-bottom: 1px solid #000000;
+        }
+
+        /* Centro: Introdução e Fluxo */
+        .main-content {
+            min-height: 200px;
+        }
+
+        .fluxo-box {
+           
+            background-color: #194500;
+            padding: 30px;
+            margin-top: 15px;
+        }
+
+        /* Fileiras Verticais: Cards de Dicas */
+        .cards-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            border: none;
+            padding: 0;
+        }
+
+        .card {
+            border: 2px solid #ffffff;
+            background-color: #77d577;
+            padding: 15px;
+            text-align: left;
+        }
+
+        .card-img-placeholder {
+            height: 100px;
+            border: 2px dashed #ffffff;
+            background-color: #edf8ea;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #000000;
+        }
+
+        /* Rodapé: Fontes */
+        footer {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- TOPO: Logo e Menu Âncora -->
+    <header class="wireframe-block">
+        <div class="logo-placeholder">
+            <div>DESCARTE ADEQUADO DE MEDICAMENTOS</div>
+        </div>
+
+        <nav>
+            <a href="#introducao">Introdução</a>
+            <a href="#fluxo">Fluxo</a>
+            <a href="#dicas">Dicas</a>
+            <a href="#fontes">Fontes</a>
+        </nav>
+    </header>
+
+    <!-- CENTRO: Introdução e Fluxo de Contaminação -->
+    <section id="introducao" class="wireframe-block main-content">
+        <h2>Introdução </h2>
+        <p class="placeholder-text">
+        <p> descarte incorreto de medicamentos em desuso é classificado pela ANVISA como um risco químico do Grupo B, gerando sérios impactos na saúde pública e no equilíbrio ecológico. O Brasil está entre os dez maiores mercados consumidores de medicamentos do mundo. Como consequência, estima-se que a população descarte anualmente entre 10 mil e 20 mil toneladas de remédios de forma residencial, sendo que cerca de 64% desse total vai parar diretamente no lixo doméstico ou na rede de esgoto comum. <br>
+Quando descartadas na pia, no vaso sanitário ou no lixo comum, as substâncias ativas alcançam matrizes ambientais terrestres e aquáticas. As Estações de Tratamento de Esgoto (ETEs) convencionais não possuem barreiras tecnológicas projetadas para filtrar ou degradar compostos moleculares farmacêuticos complexos. </p><br>
+<p>Estudos ecológicos e sanitários revelam a gravidade dessa contaminação através de dados críticos:</p><br>
+<ul><br>
+<br><li>Fator de Poluição Hídrica: Estatísticas técnicas da engenharia ambiental apontam que apenas 1 kg de medicamento descartado via esgoto pode contaminar até 450 mil litros de água. </li>
+<br><li>Desregulação Endócrina: Fármacos como hormônios sintéticos (provenientes de pílulas anticoncepcionais) são altamente persistentes na água. Mesmo em concentrações ínfimas de nanogramas por litro, eles alteram o sistema reprodutivo e causam a feminização de populações de peixes. </li>
+<br><li>Resistência Antimicrobiana (RAM): A presença constante de resíduos de antibióticos em rios e sedimentos estimula mutações bacterianas. Esse fenômeno acelera globalmente o surgimento de superbactérias resistentes a tratamentos hospitalares. </li>
+<br><li>Bioacumulação e Saúde Pública: Os resíduos químicos acumulados nos solos e nos lençóis freáticos infiltram-se na cadeia alimentar através da irrigação agrícola e da fauna. Eventualmente, essas substâncias retornam aos seres humanos a longo prazo por meio do consumo de água e alimentos. </li> 
+<br><p>Para conter esse cenário mitigado por dados da Fundação Ezequiel Dias (Funed), o caminho científico aponta para a urgência da Logística Reversa obrigatória. É a partir daqui que nossos três pilares se conectam: <br>precisamos de tecnologia para rastrear a cadeia de descarte, educação para conscientizar a população que ainda joga remédios no lixo, e sustentabilidade para garantir que a cura humana não represente o envenenamento da Terra.</p>
+
+        
+        <div id="fluxo" class="fluxo-box">
+            <h3>Diagrama: Fluxo de Contaminação</h3>
+            <p class="placeholder-text"> <img src="c:\Users\Mariah\Documents\aterro med.png" height="480" width="720"> <figcaption>“Caminho” dos medicamentos descartados inadequadamente até o solo, o lençol freático e a atmosfera"</figcaption></p>
+        <img src="c:\Users\Mariah\Documents\image-2080.png" height="480" width="720"><figcaption> "fluxograma do percursos dos resíduos descartados"</figcaption>
+        </div>
+    </section>
+
+    <!-- LOGO ABAIXO: Fileiras verticais com os Cards de Dicas e Curiosidades -->
+    <section id="dicas" class="cards-container">
+        <div class="card">
+            <div class="card-img-placeholder">[ Ícone / Imagem ]</div>
+            <h4>Dica 1: Onde Descartar</h4>
+            <p class="placeholder-text">Texto explicativo sobre pontos de coleta credenciados (farmácias/postos).</p>
+        </div>
+
+        <div class="card">
+            <div class="card-img-placeholder">[ Ícone / Imagem ]</div>
+            <h4>Dica 2: Embalagens</h4>
+            <p class="placeholder-text">Como separar a caixa de papelão (reciclável) dos blisters de remédio (contaminados).</p>
+        </div>
+
+        <div class="card">
+            <div class="card-img-placeholder">[ Ícone / Imagem ]</div>
+            <h4>Curiosidade</h4>
+            <p class="placeholder-text">Dados rápidos sobre o impacto de um único comprimido jogado no vaso sanitário.</p>
+        </div>
+    </section>
+
+    <!-- RODAPÉ: Fontes Científicas -->
+    <footer id="fontes" class="wireframe-block">
+        <h3>[ Fontes Científicas e Referências ]</h3>
+        <p class="placeholder-text">Links e citações: ANVISA, Estudos de Ecotoxicologia, Artigos de Impacto Químico.</p>
+    </footer>
+
+</body>
+</html>
