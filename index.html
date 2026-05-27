@@ -100,7 +100,23 @@
         footer {
             margin-bottom: 0;
         }
+        .container {
+  display: flex;
+  flex-wrap: wrap; /* Faz os itens irem para a linha de baixo se faltar espaço */
+  gap: 16px;       /* Espaçamento entre os elementos */
+}
+
+.item {
+  flex: 1 1 300px; /* Cresce, encolhe e tem tamanho base de 300px */
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
     </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 <body>
 
